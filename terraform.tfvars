@@ -10,6 +10,5 @@ jenkins_port         = 8080
 ssh_port             = 22
 sonarqube_port       = 9000
 key_name             = "auth_key"
-key_value            = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDEf25fhDwvSXMXTP2MFpqeEPeXLdmDUtrgC292Rz2HzLkXEMNVn2kQfM7TuXx5E7LIZNfwKV9sLxyJcsMxORlzHlTnfVrd4BmcZwJ4L0YgS2w/54XUQiBqPOkmDn7j8VEfeEToAM7RP6AK/1yEtR+pcgWJDYM9847QEt4XyndgY7uJVgMyU0FNqEhwmswbLps+yY0mvQf8dGnmhRBivAwDUdhP69+7F3nXejWP70T49BUM6EJ6klKwsdawgHVKQWS57BFkSRwNDu/SwlHLMItAi4uUMukg/GLGs9boJzv+KPRQtBQaP255h/334LASpy/xj6e9BculFyIO85eoCoeX rsa-key-20251231"
 micro_instance       = "t3.micro"
 small_instance       = "t3.small"
