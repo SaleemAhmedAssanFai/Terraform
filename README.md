@@ -56,7 +56,7 @@ provisioning to application deployment — using industry-standard tools.
 **Step 1 — VPC and Networking**
 
 <!-- Add your screenshot here -->
-![VPC Setup](screenshots/vpc-setup.png)
+![VPC Setup](screenshots/vpc-setup.jpg)
 
 *Created the VPC, subnets, internet gateway, NAT gateway, and route tables.*
 
@@ -65,7 +65,7 @@ provisioning to application deployment — using industry-standard tools.
 **Step 2 — Security Groups**
 
 <!-- Add your screenshot here -->
-![Security Groups](screenshots/security-groups.png)
+![Security Groups](screenshots/main-acl.jpg)
 
 *Configured security groups for each tool with appropriate inbound/outbound rules.*
 
@@ -74,27 +74,18 @@ provisioning to application deployment — using industry-standard tools.
 **Step 3 — EC2 Instances**
 
 <!-- Add your screenshot here -->
-![EC2 Instances](screenshots/ec2-instances.png)
+![EC2 Instances](screenshots/ec2-instances.jpg)
 
 *Launched EC2 instances for Jenkins, SonarQube, Ansible, and Grafana with 
 user data scripts for automated installation.*
 
 ---
 
-**Step 4 — Load Balancer & Auto Scaling**
-
-<!-- Add your screenshot here -->
-![ALB and ASG](screenshots/alb-asg.png)
-
-*Configured the Application Load Balancer, target group, and Auto Scaling 
-Group with a launch template for the application tier.*
-
----
 
 **Step 5 — ECR Repository**
 
 <!-- Add your screenshot here -->
-![ECR Repository](screenshots/ecr-repo.png)
+![ECR Repository](screenshots/ecr-repo.jpg)
 
 *Created an ECR repository with image scanning enabled to store Docker images.*
 
@@ -107,7 +98,7 @@ Group with a launch template for the application tier.*
 **Step 6 — Jenkins Setup**
 
 <!-- Add your screenshot here -->
-![Jenkins Dashboard](screenshots/jenkins-dashboard.png)
+![Jenkins Dashboard](screenshots/jenkins-dashboard.jpg)
 
 *Jenkins installed and configured on EC2. Pipeline job created and connected 
 to the GitHub repository.*
@@ -117,7 +108,7 @@ to the GitHub repository.*
 **Step 7 — SonarQube Code Quality Check**
 
 <!-- Add your screenshot here -->
-![SonarQube Analysis](screenshots/sonarqube-analysis.png)
+![SonarQube Analysis](screenshots/sonarqube-analysis.jpg)
 
 *SonarQube integrated into the Jenkins pipeline to run static code analysis 
 before the build proceeds.*
@@ -127,7 +118,7 @@ before the build proceeds.*
 **Step 8 — Docker Build & Push to ECR**
 
 <!-- Add your screenshot here -->
-![Docker Build](screenshots/docker-build.png)
+![Docker Build](screenshots/docker-build.jpg)
 
 *Jenkins builds the Docker image and pushes it to the AWS ECR repository.*
 
@@ -136,7 +127,7 @@ before the build proceeds.*
 **Step 9 — Ansible Configuration Management**
 
 <!-- Add your screenshot here -->
-![Ansible Playbook](screenshots/ansible-playbook.png)
+![Ansible Playbook](screenshots/ansible-playbook.jpg)
 
 *Ansible playbook triggered by Jenkins to configure EC2 instances and deploy 
 the application container.*
@@ -150,7 +141,7 @@ the application container.*
 **Step 10 — Grafana Dashboard**
 
 <!-- Add your screenshot here -->
-![Grafana Dashboard](screenshots/grafana-dashboard.png)
+![Grafana Dashboard](screenshots/grafana-dashboard.jpg)
 
 *Grafana configured to monitor EC2 metrics and visualize infrastructure health 
 across the environment.*
